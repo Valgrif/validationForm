@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Validar on expresiones regulares</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1> Validar Formulario</h1>
+        <h2>Datos de identificación</h2>
+        <hr>
+
+        <div class="form1">
+            <form id="formulario" action="" onsubmit="return validation()">
+
+                <div id="divUsr">
+                    <label>Usuario: </label>
+                    <input type="text" id="usr" placeholder=""><br>
+                    <p class="error"></p>
+                </div>
+                <div id="divPass">
+                    <label>Password: </label>
+                    <input type="password" id="pass" placeholder="">
+                    <p class="error"></p>
+                </div>
+
+                <div class="button">
+                    <input type="submit" value="Validar" id="boton" />
+                </div>
+
+            </form>
+        </div>
+        <hr>
+        <p>Validación de formulario realizado por: Daniel Gutiérrez </p>
+    </div>
+</body>
+
+</html>

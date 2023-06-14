@@ -1,0 +1,52 @@
+/*---GENERAL ---*/
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.form1 {
+    width: 550px;
+    min-height: 120px;
+    height: max-content;
+    border-radius: 1em;
+    padding-top: 1em;
+    font-weight: bold;
+    background-color: rgb(163, 245, 218);
+    align-items: left;
+    align-content: left;
+}
+
+label {
+    display: inline-block;
+    width: 130px;
+    text-align: left;
+    padding-bottom: 1em;
+}
+
+.button {
+    display: inline-block;
+    width: 70px;
+    height: 25px;
+}
+
+hr {
+    margin: 1em;
+    border: solid;
+    border-radius: 1em;
+    width: 650px;
+}
+
+/*---- ERRORES ----*/
+.error {
+    color: red;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+::placeholder {
+    color: red;
+}
